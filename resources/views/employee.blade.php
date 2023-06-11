@@ -45,7 +45,7 @@
         <dt class="text-light">Section</dt>
         <dd class="text-light">
             @if($employee->section_id !== null)
-                <a href="{{ route('employee', [$employee->section_id]) }}">{{ $employee->section_name }}</a>
+                <a href="{{ route('section', [$employee->section_id]) }}">{{ $employee->section_name }}</a>
             @endif
         </dd>
     </dl>

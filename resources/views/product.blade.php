@@ -44,7 +44,7 @@
         <dd class="text-light">{{ $product->quantity }}</dd>
         <dt class="text-light">Section</dt>
         <dd class="text-light">
-            <a href="{{ route('product', [$product->section_id]) }}">{{ $product->section_name }}</a>
+            <a href="{{ route('section', [$product->section_id]) }}">{{ $product->section_name }}</a>
         </dd>
     </dl>
     <form style="display: inline-block" action="{{ route('product.edit', [$product->id]) }}">
